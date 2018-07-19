@@ -1,0 +1,138 @@
+/* Base Styles -------------------- */
+html, body {
+  font-family: $Grotesk, sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  margin: 0 auto;
+}
+
+section {
+  padding: 0;
+  overflow: hidden;
+}
+
+hr {
+  width: 20%;
+  border-width: 3px;
+  margin: 1em auto;
+  border-radius: 5px;
+  max-width: 100px;
+}
+
+hr.grey{
+  width: 15%;
+  border-width: 1px;
+  margin: 1em 0;
+}
+
+.hidden{
+  display: none;
+}
+
+.right{
+  float: right;
+}
+
+img {
+  opacity: 1;
+  -webkit-transition: opacity .3s;
+  -o-transition: opacity .3s;
+  transition: opacity .3s;
+}
+
+img[data-src] {
+  opacity: 0;
+}
+
+.flex{
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+}
+
+/***** COLORS AND TYPOLOGY *****/
+
+h1, h2, h3, h4, h5, h6, p, li, .quote{
+  font-family: $Grotesk-Bold  , sans-serif;
+  color: black;
+}
+h1{
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 5.5rem;
+  line-height: 4.1rem;
+  z-index: -2;
+  letter-spacing: -0.25rem;
+  @include media-queries-lg {
+    font-size: 4.1rem;
+    line-height: 3.1rem;
+  }
+  @include media-queries-md {
+    font-size: 3.2rem;
+    line-height: 2.4rem;
+  }
+  @include media-queries-sm {
+    font-size: 1.8rem;
+    line-height: 1.5rem;
+  }
+}
+h2, h3, h4, h5, h6, p{
+  font-weight: 300;
+  margin: 0;
+}
+h4{
+  line-height: 1.3em;
+}
+span, label{
+  letter-spacing: 0.2px;
+  font-weight: 200;
+  opacity: 1;
+  font-size: 90%;
+}
+input{
+  letter-spacing: 0.8px;
+  font-weight: 100;
+  text-transform: capitalize;
+}
+
+h6{
+  line-height: 1.6em;
+}
+
+p{
+  font-family: $SpaceMono;
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+
+.title{
+  // p{
+  //   line-height: 1.6em;
+  // }
+}
+
+hr{
+  border-color: $green;
+}
+hr.grey{
+  border-color: $lightgrey;
+}
+
+.border-left-1{
+  border-left: 1px dashed $lightgrey;
+}
+.border-top-1{
+  border-top: 1px dashed $lightgrey;
+}
+
+.btn{
+  font-size: 0.85em;
+}
+.carousel-caption{
+  text-shadow: none;
+}
+
+.row:before, .row:after{
+     display: none;
+   }

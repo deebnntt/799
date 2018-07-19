@@ -1,0 +1,46 @@
+//Custom variables
+
+// Descriptive color variables
+$white: #fff;
+$black: #000;
+$green: #7dc14c;
+$lightgreen: #91ca67;
+$blue: #40c2ce;
+$darkGrey: #6a7070;
+$kindOfDarkGrey: #6a666a;
+$lightgrey: #d8dddb;
+
+// Functional color variables
+
+// Font stacks
+
+$Grotesk-Bold: "Grotesk-Bold", sans-serif;
+$Grotesk-Light: "Grotesk-Light", sans-serif;
+$Grotesk: "Grotesk", sans-serif;
+$SpaceMono: "SpaceMono", sans-serif;
+
+@font-face {
+    font-family: "Grotesk-Bold";
+    src: url("../fonts/PxGrotesk-Bold.ttf") format("truetype"),
+}
+
+@font-face {
+    font-family: "Grotesk-Light";
+    src: url("../fonts/PxGrotesk-Light.ttf") format("truetype"),
+}
+
+@font-face {
+    font-family: "Grotesk";
+    src: url("../fonts/PxGroteskRegular.ttf") format("truetype"),
+}
+
+
+@font-face {
+    font-family: "SpaceMono";
+    src: url("../fonts/SpaceMono-Regular.ttf") format("truetype"),
+}
+
+
+// Asset paths
+$path-image   :   '../img';
+$path-fonts     :  '../fonts';

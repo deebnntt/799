@@ -1,0 +1,202 @@
+#availability-hero {
+  background-image: url("https://s3.amazonaws.com/reacdn/799Broadway/beta/NRE1021_Broadway_S030_EXT_RooftopLookingDown_ID_extended.jpg");
+  background-size: cover;
+}
+
+.stack {
+  background-color: #f3f3f3;
+  .stack-header {
+    font-size: 1.2em;
+    font-family: $Grotesk;
+  }
+  &.desktop {
+    @include media-queries-md {
+      display: none
+    }
+  }
+  &.mobile {
+    display: none;
+    @include media-queries-md {
+      display: block
+    }
+    .stack-header {
+      font-size: 4em;
+      font-family: $Grotesk;
+    }
+    .floor-details {
+      font-size: 4em;
+      .floor-no {
+        font-family: $Grotesk-Bold;
+      }
+      .detail {
+        font-family: $Grotesk-Light;
+      }
+    }
+  }
+}
+
+
+
+
+.floor-details {
+  font-size: 2em;
+  .floor-no {
+    font-family: $Grotesk-Bold;
+  }
+  .detail {
+    font-family: $Grotesk-Light;
+  }
+}
+
+
+.g {
+  pointer-events: all;
+  cursor: pointer;
+}
+
+.stack-table {
+  width: 100vw;
+  padding: 2%;
+  .stack-row {
+    width: 100%;
+    border-top: 1px solid gray;
+    padding-top: 2px;
+    &:hover {
+      background-color: black;
+      color: white;
+      cursor: pointer;
+    }
+    &.active {
+      background-color: black;
+      color: white;
+      cursor: pointer;
+    }
+    div {
+      width: 23%;
+      font-size: 1.6rem;
+      font-family: $Grotesk-Light;
+      @include media-queries-sm {
+        font-size: .8rem;
+      }
+    }
+    .level {
+      font-family: $Grotesk-Bold;
+      padding-left: 2px;
+    }
+  }
+  .sf {
+    text-align: right;
+    padding: 0;
+  }
+  .ceiling {
+    text-align: right;
+    width: 5%;
+    padding: 0 3%;
+  }
+  .stack-table-header {
+    width: 100%;
+    padding-bottom: 1%;
+    div {
+      width: 23%;
+      font-size: .8rem;
+      text-align: left;
+      @include media-queries-sm {
+        font-size: .6rem;
+      }
+    }
+    .sf {
+      text-align: right
+    }
+    .ceiling {
+      text-align: right
+    }
+  }
+}
+
+.floorplan {
+  margin: 4% 2%;
+  display: none;
+  position: relative;
+  .fp {
+    img {
+      width: 90%;
+    }
+  }
+  .fp-download {
+    position: absolute;
+    display: block;
+    bottom: 0;
+    @include media-queries-md {
+      position: relative;
+    }
+    a {
+      color: black;
+    }
+  }
+  .x {
+    position: absolute;
+    top: 0;
+    right: 5%;
+    cursor: pointer;
+    img {
+      width: 40px;
+      @include media-queries-md {
+        width: 20px;
+      }
+    }
+  }
+}
+
+  .availabilities-squares {
+    .col-md-3 {
+      padding: 0;
+      height: 25vw;
+      @include media-queries-md {
+        height: 50vw;
+      }
+    }
+    .col-md-6 {
+      padding: 0;
+      height: 50vw;
+      @include media-queries-md {
+        height: 100vw;
+      }
+    }
+    .vertical-wrapper {
+      div {
+        margin: auto;
+      }
+    }
+  }
+
+#a {
+  background-color: black;
+  color: white;
+}
+#b {
+  background-image: url("https://s3.amazonaws.com/reacdn/799Broadway/beta/Screen_Shot_2018-06-15_at_9.38.27_AM.png");
+  background-position: left;
+  background-size: cover;
+  color: white;
+}
+#c {
+}
+#d {
+  background-image: url("https://s3.amazonaws.com/reacdn/799Broadway/beta/Screen_Shot_2018-06-15_at_9.38.27_AM.png");
+  background-position: right;
+  background-size: cover;
+  color: white;
+}
+#e{
+  background-image: url("https://s3.amazonaws.com/reacdn/799Broadway/beta/Screen_Shot_2018-05-17_at_3.43.19_PM.png");
+  background-position: right;
+  background-size: cover;
+  background-color: pink;
+}
+#f {
+  background-image: url("https://s3.amazonaws.com/reacdn/799Broadway/beta/Screen_Shot_2018-06-15_at_9.38.27_AM.png");
+  background-position: center;
+  background-size: cover;
+}
+#g {
+}

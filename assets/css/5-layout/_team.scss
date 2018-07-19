@@ -1,0 +1,27 @@
+#team-hero {
+  background-image: url('https://s3.amazonaws.com/reacdn/799Broadway/beta/Screen_Shot_2018-06-21_at_11.44.42_AM.png');
+  background-size: cover
+}
+
+.normandy {
+  .row {
+    padding: 0;
+  }
+  .col-6 {
+    padding: 3%;
+    height: 25vw;
+    @include media-queries-md {
+      height: 50vw;
+    }
+  }
+  .info {
+    position: relative;
+    height: 50vw;
+    p {
+      font-family: $Grotesk-Light;
+    }
+    a {
+      color: black;
+    }
+  }
+}

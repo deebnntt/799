@@ -1,0 +1,50 @@
+#building-hero {
+  background-image: url("https://s3.amazonaws.com/reacdn/799Broadway/beta/unnamed.jpg");
+  background-size: cover;
+  background-position: right;
+}
+
+.building-squares {
+  .col-md-3 {
+    padding: 0;
+    height: 25vw;
+    @include media-queries-md {
+      height: 50vw;
+    }
+  }
+  .col-md-6 {
+    padding: 0;
+    height: 50vw;
+    @include media-queries-md {
+      height: 100vw;
+    }
+  }
+  .vertical-wrapper {
+    div {
+      text-align: center;
+      margin: auto;
+    }
+  }
+  #build-a {
+    background-image: url("https://s3.amazonaws.com/reacdn/799Broadway/beta/Screen_Shot_2018-05-17_at_3.43.19_PM.png");
+    background-size: cover;
+  }
+  #build-c {
+    background-color: black;
+    color: white;
+  }
+  #build-d {
+    background-image: url("https://s3.amazonaws.com/reacdn/799Broadway/beta/Screen+Shot+2018-07-16+at+4.03.14+PM.png");
+    background-size: cover;
+  }
+  #build-e {
+    background-image: url("https://s3.amazonaws.com/reacdn/799Broadway/beta/Screen_Shot_2018-06-01_at_09.42.23.png");
+    background-size: cover;
+    height: 50vw;
+  }
+  #build-f {
+    background-image: url("https://s3.amazonaws.com/reacdn/799Broadway/beta/Screen_Shot_2018-05-17_at_4.05.53_PM_copy_PNG.png");
+    background-size: cover;
+    height: 25vw;
+  }
+}

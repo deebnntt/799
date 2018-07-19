@@ -1,0 +1,89 @@
+#location-hero {
+  background-image: url("https://s3.amazonaws.com/reacdn/799Broadway/beta/shutterstock_633431990.jpg");
+  background-size: cover;
+}
+
+.loc-map {
+  padding: 0;
+  margin-bottom: -5px;
+}
+
+.location-squares {
+  .col-md-3 {
+    padding: 0;
+    height: 25vw;
+    @include media-queries-md {
+      height: 50vw;
+    }
+  }
+  .col-md-6 {
+    padding: 0;
+    height: 50vw;
+    @include media-queries-md {
+      height: 100vw;
+    }
+  }
+  .vertical-wrapper {
+    div {
+      text-align: center;
+      margin: auto;
+    }
+  }
+  #loc-a {
+    @include media-queries-md {
+      display: none;
+    }
+  }
+  #loc-b {
+    background-image: url("https://s3.amazonaws.com/reacdn/799Broadway/beta/Screen_Shot_2018-06-15_at_10.10.27_AM.png");
+    background-size: cover;
+  }
+  #loc-c {
+    background-image: url("https://s3.amazonaws.com/reacdn/799Broadway/beta/Screen_Shot_2018-05-17_at_2.36.56_PM.png");
+    background-size: cover;
+    @include media-queries-md {
+      display: none;
+    }
+  }
+  #loc-d {
+
+  }
+  #loc-e {
+    background-image: url("https://s3.amazonaws.com/reacdn/799Broadway/beta/shutterstock_63870859-1.jpg");
+    background-size: cover;
+    z-index: -1;
+    @include media-queries-md {
+      height: 50vw;
+    }
+  }
+  #loc-f {
+    height: 25vw;
+    background-color: white;
+    @include media-queries-md {
+      height: 50vw;
+    }
+  }
+  #loc-g {
+    height: 25vw;
+    background-image: url("https://s3.amazonaws.com/reacdn/799Broadway/beta/Screen_Shot_2018-05-17_at_3.36.47_PM.png");
+    background-size: cover;
+    background-position: center;
+    @include media-queries-md {
+      height: 50vw;
+    }
+  }
+  #loc-h {
+    height: 25vw;
+    background-image: url("https://s3.amazonaws.com/reacdn/799Broadway/beta/shutterstock_160438778-BN.jpg");
+    background-size: cover;
+    @include media-queries-md {
+      height: 50vw;
+    }
+  }
+  #loc-i {
+    height: 50vw;
+    background-image: url("https://s3.amazonaws.com/reacdn/799Broadway/beta/Screen_Shot_2018-05-31_at_06.04.32.png");
+    background-size: cover;
+    background-position: bottom;
+  }
+}

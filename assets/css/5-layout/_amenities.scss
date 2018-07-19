@@ -1,0 +1,29 @@
+#amenities-hero {
+  background-image: url("https://s3.amazonaws.com/reacdn/799Broadway/beta/NRE1021_Broadway_S050_INT_Lounge_R01_02.jpg");
+  background-size: cover;
+}
+
+.amenities-squares {
+  .col-md-3 {
+    padding: 0;
+    height: 25vw;
+    @include media-queries-md {
+      height: 50vw;
+    }
+  }
+.col-md-6 {
+  padding: 0;
+  height: 50vw;
+  @include media-queries-md {
+    height: 100vw;
+  }
+}
+  #amen-a {
+    background-image: url("https://s3.amazonaws.com/reacdn/799Broadway/beta/Screen_Shot_2018-05-17_at_3.02.30_PM.png");
+    background-size: cover;
+  }
+  #amen-b {
+    background-image: url("https://s3.amazonaws.com/reacdn/799Broadway/beta/Screen_Shot_2018-06-15_at_10.10.03_AM.png");
+    background-size: cover;
+  }
+}

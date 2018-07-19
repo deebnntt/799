@@ -1,0 +1,47 @@
+/* Custom Mixins -------------------- */
+
+@mixin media-queries-xs {
+    @media (max-width: 350px) {
+        @content;
+    }
+}
+
+@mixin media-queries-sm {
+    @media (max-width: 575px) {
+        @content;
+    }
+}
+
+@mixin media-queries-md {
+    @media (max-width: 767px) {
+        @content;
+    }
+}
+
+@mixin media-queries-lg {
+    @media (max-width: 991px) {
+        @content;
+    }
+}
+
+@mixin media-queries-xl {
+    @media (max-width: 1199px) {
+        @content;
+    }
+}
+
+@mixin media-queries-xxl {
+    @media (max-width: 1300px) {
+        @content;
+    }
+}
+
+//landscape?
+
+@mixin media-queries-landscape {
+    @media only screen
+    and (max-width : 1024px)
+    and (orientation : landscape) {
+    @content;
+  }
+}
